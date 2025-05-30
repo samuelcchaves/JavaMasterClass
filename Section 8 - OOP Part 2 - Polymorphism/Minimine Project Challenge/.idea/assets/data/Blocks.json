@@ -1,0 +1,14 @@
+[
+  {
+    "id": "minecraft:stone",
+    "name": "Stone",
+    "texture": "stone.png",
+    "solid": true
+  },
+  {
+    "id": "minecraft:glass",
+    "name": "Glass",
+    "texture": "glass.png",
+    "solid": false
+  }
+]

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CE41-MinimumElement/CE41-MinimumElement.iml" filepath="$PROJECT_DIR$/CE41-MinimumElement/CE41-MinimumElement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MinimumElementChallenge/MinimumElementChallenge.iml" filepath="$PROJECT_DIR$/MinimumElementChallenge/MinimumElementChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/VarArgs.iml" filepath="$PROJECT_DIR$/.idea/VarArgs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/varargs/varargs.iml" filepath="$PROJECT_DIR$/varargs/varargs.iml" />
+    </modules>
+  </component>
+</project>

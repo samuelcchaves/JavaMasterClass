@@ -1,0 +1,45 @@
+import java.awt.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+record GroceryItem(String name, String type, int count){
+
+    public GroceryItem(String name){
+        this(name, "Dairy", 1);
+    }
+
+    @Override
+    public String toString(){
+        return String.format("%d %s in %s", count, name.toUpperCase(), type);
+    }
+}
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+    GroceryItem[] groceryArray = new GroceryItem[3];
+    groceryArray[0] = new GroceryItem("milk");
+    groceryArray[1] = new GroceryItem("apples", "PRODUCE", 6);
+    groceryArray[2] = new GroceryItem("Oranges", "PRODUCE", 6);
+    System.out.println(Arrays.toString(groceryArray));
+
+    ArrayList objectList = new ArrayList();
+    objectList.add(new GroceryItem("butter"));
+    objectList.add(new GroceryItem("yogurt"));
+
+    ArrayList<GroceryItem> groceryList = new ArrayList<>();
+    groceryList.add(new GroceryItem("butter"));
+    groceryList.add(new GroceryItem("yogurt"));
+    groceryList.add(new GroceryItem("milk"));
+    groceryList.add(new GroceryItem("oranges", "Produce", 5));
+    groceryList.set(0, new GroceryItem("strawberrys", "Produce", 2));
+    groceryList.remove(1);
+
+    System.out.println(groceryList);
+
+
+
+
+    }
+}

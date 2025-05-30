@@ -1,0 +1,16 @@
+[
+  {
+    "id": "minecraft:tool",
+    "name": "Diamond Pickaxe",
+    "texture": "diamondpickaxe.png",
+    "damage": 20,
+    "durability": 2499
+  },
+  {
+    "id": "minecraft:weapon",
+    "name": "Diamond Sword",
+    "texture": "diamondsword.png",
+    "damage": 55,
+    "durability": 2499
+  }
+]
